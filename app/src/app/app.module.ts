@@ -1,18 +1,20 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {ErrorHandler, NgModule} from '@angular/core';
-import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
+import {IonicApp, IonicErrorHandler, IonicModule, List} from 'ionic-angular';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
 
 import {MyApp} from './app.component';
 import {HomePage} from '../pages/home/home';
 import {ButtonPage} from '../pages/button/button'
+import {ListPage} from '../pages/list/list'
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ButtonPage
+    ButtonPage,
+    ListPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import {ButtonPage} from '../pages/button/button'
   entryComponents: [
     MyApp,
     HomePage,
-    ButtonPage
+    ButtonPage,
+    ListPage
   ],
   providers: [
     StatusBar,
