@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 /**
- * Generated class for the ListPage page.
+ * Generated class for the CardPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,29 +10,16 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-list',
-  templateUrl: 'list.html',
+  selector: 'page-card',
+  templateUrl: 'card.html',
 })
-export class ListPage {
-
-  items = [
-    'html',
-    'CSS',
-    'JavaScript',
-    'angular',
-    'node.js',
-    'react',
-    'ionic'
-  ];
+export class CardPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ListPage');
+    console.log('ionViewDidLoad CardPage');
   }
 
-  selectItem(item: string) {
-    console.log(`select: ${item}`);
-  }
 }
