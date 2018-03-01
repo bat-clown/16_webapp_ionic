@@ -12,6 +12,7 @@ import {CardPage} from '../pages/card/card';
 import {FabPage} from '../pages/fab/fab';
 import {GesturePage} from '../pages/gesture/gesture';
 import {GridPage} from '../pages/grid/grid';
+import {FormPage} from '../pages/form/form';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {GridPage} from '../pages/grid/grid';
     CardPage,
     FabPage,
     GesturePage,
-    GridPage
+    GridPage,
+    FormPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import {GridPage} from '../pages/grid/grid';
     CardPage,
     FabPage,
     GesturePage,
-    GridPage
+    GridPage,
+    FormPage
   ],
   providers: [
     StatusBar,
