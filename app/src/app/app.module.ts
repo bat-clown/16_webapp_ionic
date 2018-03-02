@@ -13,6 +13,7 @@ import {FabPage} from '../pages/fab/fab';
 import {GesturePage} from '../pages/gesture/gesture';
 import {GridPage} from '../pages/grid/grid';
 import {FormPage} from '../pages/form/form';
+import {ToastPage} from '../pages/toast/toast';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import {FormPage} from '../pages/form/form';
     FabPage,
     GesturePage,
     GridPage,
-    FormPage
+    FormPage,
+    ToastPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import {FormPage} from '../pages/form/form';
     FabPage,
     GesturePage,
     GridPage,
-    FormPage
+    FormPage,
+    ToastPage
   ],
   providers: [
     StatusBar,
